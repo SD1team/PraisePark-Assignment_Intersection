@@ -37,9 +37,7 @@ int main() {
 	if(calendars == NULL) return 0;
 
 	for(int i=0; i<numOfTestCase; i++) {
-		scanf("%d %d %d", &calendars[i].numOfMonthsPerYear, 
-						  &calendars[i].numOfDaysPerMonth, 
-						  &calendars[i].numOfDaysPerWeek);
+		scanf("%d %d %d", &calendars[i].numOfMonthsPerYear, &calendars[i].numOfDaysPerMonth, &calendars[i].numOfDaysPerWeek);
 		fflush(stdin);
 	}
 
